@@ -1,0 +1,19 @@
+<HTML>
+<head>
+<style>
+#counter{text-align:center;}
+#cookie{width:200px;position:absolute;left:calc(50% - 100px);}
+</style>
+</head>
+<body>
+<h1 id=counter>0</h1>
+<img src = "https://tse2.mm.bing.net/th/id/OIP.6S_J5bQgslJzpKNKdHsOwQHaGC?pid=ImgDet&rs=1" id = cookie>
+<script>
+let counter = 0
+document.getElementById("cookie").onclick = function (){
+++counter
+document.getElementById("counter").innerHTML = counter
+}
+</script>
+</body>
+</HTML>
